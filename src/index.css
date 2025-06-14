@@ -54,10 +54,14 @@
   }
 
   body {
-    @apply bg-portfolio-dark text-portfolio-text font-inter;
+    
+    @apply bg-portfolio-dark text-portfolio-text font-vt;
     background-image: 
       radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
       radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Press Start 2P', monospace !important;
   }
 
   html {

@@ -11,6 +11,13 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-[#0a0a0a]">
+        <div className="absolute inset-0 z-0">
+    <img
+      src="/Hero.png"  
+      alt="Fondo espacial"
+      className="w-full h-full object-cover opacity-30"
+    />
+  </div>
       {/* Background Grid */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       
@@ -24,7 +31,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-inter font-bold mb-6 leading-tight">
             <span className="text-gray-300">Hola, soy </span>
             <span className="neon-text bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent animate-glow">
-              Tu Nombre
+              Julian Trinidad
             </span>
           </h1>
           

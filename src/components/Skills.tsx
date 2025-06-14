@@ -34,7 +34,14 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="section-padding">
+    <section id="skills" className="section-padding min-h-[600px] relative">
+        <div className="absolute inset-0 z-0">
+    <img
+      src="/Habilidades.png"
+      alt="Fondo habilidades"
+      className="w-full h-full object-cover opacity-30"
+    />
+  </div>
       <div className="container-width">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-gradient mb-6">

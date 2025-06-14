@@ -22,6 +22,8 @@ export default {
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
 				'playfair': ['Playfair Display', 'serif'],
+				vt: ['VT323', 'monospace'],
+				press: ['Press Start 2P', 'monospace'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
