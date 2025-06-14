@@ -1,7 +1,15 @@
 
 const About = () => {
   return (
-    <section id="about" className="section-padding bg-portfolio-darker/50">
+    <section id="about" className="section-padding min-h-[600px] relative bg-portfolio-darker/50">
+        <div className="absolute inset-0 z-0">
+    <img
+      src="/About.png"
+      alt="Despacho del Capitán"
+      className="w-full h-full object-cover opacity-30"
+    />
+  </div>
+
       <div className="container-width">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Texto */}

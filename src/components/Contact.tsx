@@ -78,7 +78,14 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="section-padding bg-portfolio-darker/50">
+    <section id="contact" className="section-padding min-h-[600px] relative bg-portfolio-darker/50">
+        <div className="absolute inset-0 z-0">
+    <img
+      src="/Contacto.png"
+      alt="Satélite orbitando la Tierra"
+      className="w-full h-full object-cover opacity-30"
+    />
+  </div>
       <div className="container-width">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-gradient mb-6">
