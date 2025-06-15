@@ -20,11 +20,9 @@ const About = () => {
             
             <div className="space-y-4 text-portfolio-text-muted leading-relaxed text-2xl">
               <p>
-                Soy un desarrollador Full-Stack con fuerte orientación al Frontend, apasionado por crear interfaces digitales atractivas, funcionales y accesibles.
- 
-                Con más de 3 años de experiencia construyendo soluciones modernas, me especializo en el desarrollo de interfaces web intuitivas que combinan diseño de alto impacto con experiencias fluidas para el usuario.
+               Soy un desarrollador Frontend, apasionado por crear interfaces digitales atractivas, funcionales y accesibles. Con más de 2 años de experiencia construyendo soluciones modernas, me especializo en el desarrollo de interfaces web intuitivas que combinan diseño de alto impacto con experiencias fluidas para el usuario.
 
-                Mi enfoque principal está en la arquitectura y desarrollo de Frontends escalables, aplicando buenas prácticas, diseño responsivo, optimización de rendimiento y animaciones interactivas.
+               Mi enfoque principal está en la arquitectura y desarrollo de Frontends escalables, aplicando buenas prácticas, diseño responsivo, optimización de rendimiento y animaciones interactivas.responsivo, optimización de rendimiento y animaciones interactivas.
               </p>
               
               <p>

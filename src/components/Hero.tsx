@@ -37,23 +37,23 @@ const Hero = () => {
           
           {/* Subtítulo */}
           <h2 className="text-2xl md:text-3xl lg:text-4xl text-gray-400 mb-8 font-inter font-medium animate-fade-in-up animate-delay-200">
-            Full-Stack Developer
+            Frontend Developer
           </h2>
           
           {/* Texto descriptivo */}
           <p className="text-lg md:text-xl text-gray-500 max-w-4xl mx-auto mb-12 leading-relaxed font-inter animate-fade-in-up animate-delay-400">
             Creo experiencias digitales excepcionales combinando diseño elegante 
-            con código robusto. Especializado en React, Node.js y tecnologías modernas.
+            con código robusto.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in-up animate-delay-600">
+           {/*<div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in-up animate-delay-600">
             <button className="btn-primary">
               Ver mis proyectos
             </button>
             <button className="btn-secondary">
               Descargar CV
             </button>
-          </div>
+          </div>*/} {/*BOTONES DESCARGAR CV Y VER PROYECTOS*/}
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-16 animate-fade-in-up animate-delay-600">
