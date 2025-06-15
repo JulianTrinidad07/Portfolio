@@ -38,20 +38,20 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: <Mail size={24} />,
-      label: "Email",
-      value: "tu@email.com",
-      href: "mailto:tu@email.com"
+      label: "Mail",
+      value: "juliantrini.2107@gmail.com",
+    
     },
     {
       icon: <Phone size={24} />,
       label: "Teléfono",
-      value: "+34 123 456 789",
-      href: "tel:+34123456789"
+      value: "+3438440281",
+      
     },
     {
       icon: <MapPin size={24} />,
       label: "Ubicación",
-      value: "Madrid, España",
+      value: "Entre Rios, Argentina",
       href: null
     }
   ];
@@ -63,12 +63,12 @@ const Contact = () => {
       href: "https://github.com",
       color: "hover:text-gray-400"
     },
-    {
+    {/*
       icon: <Linkedin size={24} />,
       label: "LinkedIn",
       href: "https://linkedin.com",
       color: "hover:text-blue-400"
-    },
+    */},
     {
       icon: <Mail size={24} />,
       label: "Email",
@@ -97,7 +97,7 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
+          {/* Contact Form 
           <div className="space-y-6">
             <div className="bg-portfolio-dark p-8 rounded-2xl border border-white/10">
               <h3 className="text-2xl font-playfair font-semibold text-portfolio-text mb-6">
@@ -187,12 +187,12 @@ const Contact = () => {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-8 "> 
             {/* Contact Details */}
-            <div className="bg-portfolio-dark p-8 rounded-2xl border border-white/10">
+            <div className="bg-portfolio-dark p-8 rounded-2xl border border-white/10 ">
               <h3 className="text-2xl font-playfair font-semibold text-portfolio-text mb-6">
                 Información de contacto
               </h3>

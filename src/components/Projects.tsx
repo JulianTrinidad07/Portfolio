@@ -7,7 +7,7 @@ const Projects = () => {
       title: "E-commerce Platform",
       description: "Plataforma completa de comercio electrónico con panel de administración, carrito de compras, sistema de pagos y gestión de inventario.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Redis"],
+      technologies: [null],
       github: "https://github.com",
       demo: "https://demo.com",
       featured: true
@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Task Management App",
       description: "Aplicación de gestión de tareas con colaboración en tiempo real, notificaciones push y sincronización offline.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["Vue.js", "Express", "Socket.io", "MongoDB"],
+      technologies: [null],
       github: "https://github.com",
       demo: "https://demo.com",
       featured: true
@@ -25,7 +25,7 @@ const Projects = () => {
       title: "Weather Dashboard",
       description: "Dashboard interactivo del clima con mapas en tiempo real, pronósticos extendidos y alertas meteorológicas.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      technologies: ["React", "D3.js", "OpenWeather API", "Chart.js"],
+      technologies: [null],
       github: "https://github.com",
       demo: "https://demo.com",
       featured: false
@@ -34,7 +34,7 @@ const Projects = () => {
       title: "Social Media Analytics",
       description: "Herramienta de análisis de redes sociales con métricas en tiempo real, reportes automatizados y visualizaciones de datos.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      technologies: ["Python", "Flask", "Pandas", "Chart.js", "Twitter API"],
+      technologies: [null],
       github: "https://github.com",
       demo: "https://demo.com",
       featured: false
@@ -43,7 +43,7 @@ const Projects = () => {
       title: "Learning Management System",
       description: "Plataforma educativa con cursos interactivos, seguimiento de progreso, quizzes y certificaciones.",
       image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io", "AWS S3"],
+      technologies: [null],
       github: "https://github.com",
       demo: "https://demo.com",
       featured: true
@@ -52,7 +52,7 @@ const Projects = () => {
       title: "Crypto Portfolio Tracker",
       description: "Aplicación para seguimiento de criptomonedas con alertas de precio, análisis técnico y portfolio management.",
       image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop",
-      technologies: ["Vue.js", "Express", "CoinGecko API", "Chart.js"],
+      technologies: [null],
       github: "https://github.com",
       demo: "https://demo.com",
       featured: false
